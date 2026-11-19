@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.2.8",
-  "releaseName": "iCode++ 0.2.8 (Windows)",
-  "releaseNotes": "修复了一些登录页面的已知问题：\n\n- 正常登录时不再自动跳回原平台入口\n- 修复了官方登录协议勾选识别，避免提交被卡住\n- 增加登录提示\n- 只有确实需要安全验证时，才会弹出官方验证窗口",
+  "version": "0.2.9",
+  "releaseName": "iCode++ 0.2.9 (Windows)",
+  "releaseNotes": "登录状态改为页面底部的浮动文字提示，正在登录、正在验证账号时会明确显示进度，不改变登录卡片与输入框的原有布局。\n\n- 正常登录时不再自动跳回原平台入口，登录按钮也不再改变文案。\n\n- 修复官方登录协议勾选识别与提交逻辑，避免点击登录无反应或流程卡住。\n\n- 只有确实需要安全验证时，才会弹出官方验证窗口。\n\n- 左下角版本更新入口只在发现新版本或检查失败时显示；已是最新版本时自动隐藏，减少启动闪烁。",
   "publishedAt": "2026-11-19T00:00:00+08:00",
-  "downloadUrl": "https://github.com/pigonekilo/icodeplusplus-windows-releases/releases/download/v0.2.8/iCode++-windows-x64-0.2.8.zip"
+  "downloadUrl": "https://github.com/pigonekilo/icodeplusplus-windows-releases/releases/download/v0.2.9/iCode++-windows-x64-0.2.9.zip"
 }
